@@ -3,9 +3,6 @@ void main() {
   String firstName = "Muhammad";
   bool isLogin = false;
 
-  print(firstName);
-  print(isLogin);
-
   // tipe data
   String hello = "Hello World";
   num myNumber = 45;
@@ -17,5 +14,13 @@ void main() {
   String last = "Doe";
   String fullName = "$first $last";
 
+  // tipe data dinamic (tidak peduli apapun tipedatanya)
+  dynamic myVar = 100;
+  myVar = "tipe data dynamic";
+
+  // printing
+  print(firstName);
+  print(isLogin);
   print("My fullname is $fullName");
+  print(myVar);
 }
