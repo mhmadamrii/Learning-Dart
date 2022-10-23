@@ -1,0 +1,10 @@
+OOP = sudut pandang bahasa pemrograman yang berkonsep object
+istilah dalam OOP = object & class
+
+1. Object
+Object berisi field/properties/attributes/method/function
+Class adalah blueprint, prototype atau cetakan membuat object
+
+2. Class
+setiap object selalu dibuat dari class
+sebuah class bisa membuat object tanpa batas
