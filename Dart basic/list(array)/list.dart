@@ -25,4 +25,10 @@ void main() {
 
   // manipulasi List
   print(listString[0]);
+  listLangsung();
+}
+
+void listLangsung() {
+  var names = <String>['John', 'Doe', 'Player'];
+  print(names);
 }

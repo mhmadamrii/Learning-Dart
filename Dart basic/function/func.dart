@@ -1,8 +1,11 @@
 void main() {
-  print(myFunc());
+  print("Hello world");
+  print(add(2, 4));
+
+  var a;
+  print(a);
 }
 
-myFunc() {
-  var example = 100;
-  print(example);
+int add(int a, int b) {
+  return a + b;
 }
