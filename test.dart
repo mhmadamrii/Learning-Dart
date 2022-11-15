@@ -1,10 +1,8 @@
+import "dart:math";
+
 void main() {
-  int total = 0;
-  int n = 100;
+  int quantity = 500;
+  double price = 3.14;
 
-  for (int i = 1; i <= n; i++) {
-    total = total + i;
-  }
-
-  print("Total is $total");
+  print(min(1, 3));
 }
