@@ -26,6 +26,12 @@ void main() {
   // manipulasi List
   print(listString[0]);
   listLangsung();
+
+  // list net ninja tutorial
+  List names = ['John', 'Doe', 'Foo', 'Bar'];
+  names.add('Luigi');
+  names.remove('John');
+  print(names);
 }
 
 void listLangsung() {
