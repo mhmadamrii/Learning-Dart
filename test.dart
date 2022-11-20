@@ -1,17 +1,27 @@
-// ternary operator
-
 void main() {
-  int num1 = 10;
-  int num2 = 40;
+  Animal animal = Animal();
+  print("This is OOP: $animal");
+  animal.name = "Lion";
+  animal.numberOfLegs = 40;
+  animal.lifeSpan = 10;
 
-  int max = (num1 > num2) ? num1 : num2;
-  print("The  greatest number is $max");
-  myFunc();
+  // calling function in class Animal
+  animal.display();
+  animal.noneFunc();
 }
 
-void myFunc() {
-  bool cond = true;
-  var result = cond ? "tes" : "cek";
+class Animal {
+  String? name;
+  int? numberOfLegs;
+  int? lifeSpan;
 
-  print(result);
+  void display() {
+    print("Animal name: $name");
+    print("Number of legs: $numberOfLegs");
+    print("Life span: $lifeSpan");
+  }
+
+  void noneFunc() {
+    print("it should be none");
+  }
 }
