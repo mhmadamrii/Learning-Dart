@@ -1,8 +1,17 @@
-import "dart:math";
+// ternary operator
 
 void main() {
-  int quantity = 500;
-  double price = 3.14;
+  int num1 = 10;
+  int num2 = 40;
 
-  print(min(1, 3));
+  int max = (num1 > num2) ? num1 : num2;
+  print("The  greatest number is $max");
+  myFunc();
+}
+
+void myFunc() {
+  bool cond = true;
+  var result = cond ? "tes" : "cek";
+
+  print(result);
 }
